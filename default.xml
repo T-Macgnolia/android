@@ -13,6 +13,9 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
+<remote  name="t-mac"
+           fetch="https://github.com/T-Macgnolia/" />
+
   <default revision="refs/heads/cm-12.1"
            remote="github"
            sync-c="true"
@@ -54,6 +57,7 @@
   <project path="device/google/atv" name="CyanogenMod/android_device_google_atv" groups="device" />
   <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" />
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
+  <project path="device/lge/c50" name="android_device_lge_c50" remote="t-mac" revision="cm12.1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" remote="aosp" />

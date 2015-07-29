@@ -59,6 +59,7 @@
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" />
   <project path="device/lge/c50" name="android_device_lge_c50" remote="t-mac" revision="cm12.1" />
   <project path="device/lge/msm8916-common" name="android_device_lge_msm8916-common" remote="t-mac" revision="cm-12.1" />
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="t-mac" revision="cm-12.1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" remote="aosp" />
